@@ -15,12 +15,12 @@ public class AssistantJack {
 		this.foundAnswer = false;
 	}
 	
-	public bool checkAnswer(int weapon, int location, int person) {
-		
+	public boolean checkAnswer(int weapon, int location, int person) {
+		return false;
 	}
 	
-	private validateWeapon(int value) {
-		if (value )
-	}
+//	private validateWeapon(int value) {
+//		if (value )
+//	}
 
 }
