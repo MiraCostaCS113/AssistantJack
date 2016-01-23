@@ -6,7 +6,7 @@ public class AssistantJack {
 	private boolean foundAnswer;
 	
 	private final static int MAX_WEAPONS = 6;
-	private final static int MAX_LOCAtIONS = 10;
+	private final static int MAX_LOCATIONS = 10;
 	private final static int MAX_PERSONS = 6;
 	
 	public AssistantJack()
