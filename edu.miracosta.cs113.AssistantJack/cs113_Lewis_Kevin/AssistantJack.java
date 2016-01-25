@@ -61,7 +61,7 @@ public class AssistantJack {
 		}
 		else {
 			Random random = new Random();
-			return random.nextInt(wrongItems.size());			
+			return wrongItems.get(random.nextInt(wrongItems.size()));			
 		}
 	}
 	

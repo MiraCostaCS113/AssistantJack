@@ -2,6 +2,10 @@ package cs113_Lewis_Kevin;
 
 public final class TheoryItem {
 
+	public static final int TOTAL_MURDERS = 6;
+	public static final int TOTAL_LOCATIONS = 10;
+	public static final int TOTAL_WEAPONS = 6;
+	
 	public static String getLocationName(int location) {
 		String locationName = null;
 		
