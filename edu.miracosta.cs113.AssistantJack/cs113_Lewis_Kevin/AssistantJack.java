@@ -4,23 +4,20 @@ public class AssistantJack {
 	
 	private int timesAsked;
 	private boolean foundAnswer;
+	private Theory correctTheory;
 	
-	private final static int MAX_WEAPONS = 6;
-	private final static int MAX_LOCATIONS = 10;
-	private final static int MAX_PERSONS = 6;
-	
-	public AssistantJack()
+	private AssistantJack()
 	{
 		this.timesAsked = 0;
 		this.foundAnswer = false;
+	}
+	
+	public AssistantJack(int answerSet) {
+		
 	}
 	
 	public boolean checkAnswer(int weapon, int location, int person) {
 		return false;
 	}
 	
-//	private validateWeapon(int value) {
-//		if (value )
-//	}
-
 }

@@ -1,8 +1,6 @@
 package cs113_Lewis_Kevin;
 
 public final class TheoryItem {
-	
-	
 
 	public static String getLocationName(int location) {
 		String locationName = null;

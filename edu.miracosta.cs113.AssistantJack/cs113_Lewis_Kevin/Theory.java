@@ -5,6 +5,17 @@ public class Theory {
 	private int location;
 	private int person;
 	
+	public Theory(int weapon, int location, int person) {
+		this.weapon = weapon;
+		this.location = location;
+		this.person = person;
+	}
+	
+	public Theory(Theory other) {
+		this.weapon = other.weapon;
+		this.location = other.location;
+		this.person = other.person;
+	}
 	
 	
 	public int getWeapon() {
@@ -26,5 +37,25 @@ public class Theory {
 		this.person = person;
 	}
 	
+	public boolean equals(Object obj) {
+		if(obj == null) {
+			return false;
+		}
+		
+		if(getClass() != obj.getClass()) {
+			return false;
+		}
+		
+		final Theory other = (Theory)obj;
+		
+		if(this.weapon != other.weapon 
+				|| this.person != other.person 
+				|| this.location != other.location) {
+			return false;
+		}
+		
+		return true;
+		
+	}
 	
 }
