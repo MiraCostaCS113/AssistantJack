@@ -41,15 +41,16 @@ public class AssistantJack {
 	public int checkAnswer(int weapon, int location, int person) {
 		ArrayList<Integer> wrongItems = new ArrayList<Integer>();
 		
-		if(this.correctTheory.getPerson() != person) {
+		
+		if(this.correctTheory.getWeapon() != weapon) {
 			wrongItems.add(1);
 		}
-
+		
 		if(this.correctTheory.getLocation() != location) {
 			wrongItems.add(2);
 		}
 		
-		if(this.correctTheory.getWeapon() != weapon) {
+		if(this.correctTheory.getPerson() != person) {
 			wrongItems.add(3);
 		}
 		
