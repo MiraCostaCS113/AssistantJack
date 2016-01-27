@@ -12,7 +12,7 @@ public class BruteForce {
 		for (int m = 1; m <= TheoryItem.TOTAL_MURDERS; m++) {
 			for (int l = 1; l <= TheoryItem.TOTAL_LOCATIONS; l++) {
 				for (int w = 1; w <= TheoryItem.TOTAL_WEAPONS;w++) {
-					int checkAnswer = jack.checkAnswer(m, l, w);
+					int checkAnswer = jack.checkAnswer(w, l, m);
 					System.out.println("Check Answer = " + checkAnswer);
 					if(checkAnswer == 0) {
 						foundMurder = m;
