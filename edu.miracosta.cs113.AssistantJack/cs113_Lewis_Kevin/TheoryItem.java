@@ -1,11 +1,19 @@
 package cs113_Lewis_Kevin;
 
+/**
+ * @author lewiske
+ *
+ */
 public final class TheoryItem {
 
 	public static final int TOTAL_MURDERS = 6;
 	public static final int TOTAL_LOCATIONS = 10;
 	public static final int TOTAL_WEAPONS = 6;
 	
+	/**
+	 * @param location
+	 * @return
+	 */
 	public static String getLocationName(int location) {
 		String locationName = null;
 		
@@ -44,6 +52,10 @@ public final class TheoryItem {
 		return locationName;
 	}
 	
+	/**
+	 * @param location
+	 * @return
+	 */
 	public static int getLocationNumber(String location){
 		int locationNumber = 0;
 		
@@ -82,6 +94,10 @@ public final class TheoryItem {
 		return locationNumber;
 	}
 	
+	/**
+	 * @param location
+	 * @return
+	 */
 	public static boolean validateLocationNumber(int location){
 		if(location >= 1 && location <= 6) {
 			return true;
@@ -90,6 +106,10 @@ public final class TheoryItem {
 	}
 	
 	
+	/**
+	 * @param person
+	 * @return
+	 */
 	public static String getPersonName(int person) {
 		String personString = null;
 		
@@ -116,6 +136,10 @@ public final class TheoryItem {
 		return personString;
 	}
 	
+	/**
+	 * @param person
+	 * @return
+	 */
 	public static int getPersonNumber(String person) {
 		int personNumber = 0;
 		

@@ -5,6 +5,7 @@ public class BruteForce {
 	public static void main(String[] args) {
 
 		AssistantJack jack = new AssistantJack(0);
+
 		
 		int foundMurder = 0;
 		int foundWeapon = 0;
@@ -23,9 +24,14 @@ public class BruteForce {
 			}
 		}
 		System.out.println("The correct answer is " + 
+				TheoryItem.getPersonName(foundMurder) + "," + 
+				TheoryItem.getLocationName(foundLocation) + "," + 
+				TheoryItem.getWeaponName(foundWeapon));
+		System.out.println("The correct answer is " + 
 				foundMurder + "," + 
-						foundLocation + "," + 
-								foundWeapon);
+				foundLocation + "," + 
+				foundWeapon);
+
 
 
 	}
