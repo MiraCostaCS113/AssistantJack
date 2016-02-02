@@ -1,4 +1,4 @@
-package cs113_Lewis_Kevin;
+package edu.miracosta.cs113.hw1.assistant;
 
 /**
  * @author lewiske
