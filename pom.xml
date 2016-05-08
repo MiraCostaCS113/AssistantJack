@@ -7,20 +7,6 @@
   <description>The awesome Assistant Jack for Detective Jill. </description>
   <build>
     <sourceDirectory>AssistantJack</sourceDirectory>
-    <resources>
-      <resource>
-        <directory>Homework2</directory>
-        <excludes>
-          <exclude>**/*.java</exclude>
-        </excludes>
-      </resource>
-      <resource>
-        <directory>CH06</directory>
-        <excludes>
-          <exclude>**/*.java</exclude>
-        </excludes>
-      </resource>
-    </resources>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
