@@ -14,7 +14,6 @@ import java.util.Random;
 public class AssistantJack {
 	
 	private int timesAsked;
-	private boolean foundAnswer;
 	private Theory correctTheory;
 	
 	/**
@@ -23,7 +22,6 @@ public class AssistantJack {
 	private AssistantJack()
 	{
 		this.timesAsked = 0;
-		this.foundAnswer = false;
 		this.correctTheory = null;
 	}
 	
