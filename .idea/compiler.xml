@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cs113_Lewis_Kevin" target="1.7" />
+      <module name="cs113_Lewis_Kevin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

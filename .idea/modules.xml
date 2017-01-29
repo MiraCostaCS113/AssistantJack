@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../blinderm/CS113_Blinder_Mark/CS113_Blinder_Mark.iml" filepath="$PROJECT_DIR$/../blinderm/CS113_Blinder_Mark/CS113_Blinder_Mark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../KLewisCS113/KLewisCS113.iml" filepath="$PROJECT_DIR$/../KLewisCS113/KLewisCS113.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../broffmans/broffmans.iml" filepath="$PROJECT_DIR$/../broffmans/broffmans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../byrnes/byrnes.iml" filepath="$PROJECT_DIR$/../byrnes/byrnes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../chim/chim.iml" filepath="$PROJECT_DIR$/../chim/chim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../clearyr/clearyr.iml" filepath="$PROJECT_DIR$/../clearyr/clearyr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../coled/coled.iml" filepath="$PROJECT_DIR$/../coled/coled.iml" />
       <module fileurl="file://$PROJECT_DIR$/cs113_Lewis_Kevin.iml" filepath="$PROJECT_DIR$/cs113_Lewis_Kevin.iml" />
     </modules>
   </component>

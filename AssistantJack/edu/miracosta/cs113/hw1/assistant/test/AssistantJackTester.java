@@ -14,4 +14,10 @@ public class AssistantJackTester {
 		assertTrue(aj.checkAnswer(1, 1, 1) == 0);		
 	}
 
+	@Test
+	public void testCheckAnswer2() {
+		AssistantJack aj = new AssistantJack(2);
+		assertTrue(aj.checkAnswer(6,10,6) == 0);
+	}
+
 }

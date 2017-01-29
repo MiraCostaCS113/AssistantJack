@@ -2,5 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../KLewisCS113" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../broffmans" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../byrnes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../chim" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../clearyr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../coled" vcs="Git" />
   </component>
 </project>
